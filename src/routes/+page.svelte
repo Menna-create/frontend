@@ -1,6 +1,6 @@
 <script lang="ts">                                                             
   import { onMount } from 'svelte';                                            
-  import { Socket } from 'phoenix';                                            
+import { Socket } from 'phoenix';                                           
                                                                                
   let socketStatus: string = 'Connecting...';                                  
   let channelStatus: string = 'Joining channel...';                            
